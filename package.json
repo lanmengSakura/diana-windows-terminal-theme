@@ -1,0 +1,21 @@
+{
+  "name": "diana-windows-terminal-theme",
+  "version": "0.3.0",
+  "description": "Diana night theme profiles for Windows Terminal.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lanmengSakura/diana-windows-terminal-theme.git"
+  },
+  "scripts": {
+    "test": "node scripts/validate-release.mjs && powershell.exe -NoProfile -ExecutionPolicy Bypass -File ./validate-diana-terminal.ps1",
+    "terminal:validate": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File ./validate-diana-terminal.ps1",
+    "terminal:install": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File ./install-diana-terminal.ps1",
+    "terminal:open": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File ./install-diana-terminal.ps1 -Open",
+    "terminal:default": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File ./install-diana-terminal.ps1 -SetDefault",
+    "terminal:shortcut": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File ./new-diana-terminal-shortcut.ps1",
+    "terminal:uninstall": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File ./uninstall-diana-terminal.ps1",
+    "terminal:build-background": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File ./build-terminal-background.ps1",
+    "terminal:pack": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File ./pack-terminal-release.ps1"
+  }
+}
