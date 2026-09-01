@@ -1,6 +1,6 @@
-# Diana Windows Terminal Theme 0.3.0-rc.1
+# Diana Windows Terminal Theme 0.3.0-beta.1
 
-Status: **source pre-release; no GitHub Release asset yet**.
+Status: **public GitHub Beta with an installable archive; stable release still pending**.
 
 ## Public implementation
 

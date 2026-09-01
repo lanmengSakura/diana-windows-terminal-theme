@@ -2,7 +2,7 @@
 
 这是为 Windows Terminal 制作的暗夜主题，包含 `Diana PowerShell` 和 `Diana CMD` 两个可选配置。用户可以将它们独立保留，也可以主动把 Diana PowerShell 设为当前用户的默认配置。
 
-> **预发布状态：`0.3.0-rc.1`。** 公开源码已经整理完成，最后一轮 Windows Terminal 真机回归通过后再创建正式 GitHub Release 和压缩包。
+> **公开测试版：[`v0.3.0-beta.1`](https://github.com/lanmengSakura/diana-windows-terminal-theme/releases/tag/v0.3.0-beta.1)。** GitHub Release 已提供安装／恢复压缩包；正式稳定版仍等待扩大真机回归。
 
 `Diana CMD` 是 Windows Terminal 内启动 `cmd.exe` 的配置，不是传统 `conhost.exe` 窗口。完整背景需要从 Windows Terminal 下拉菜单或 Diana 开始菜单快捷方式进入。
 
@@ -12,7 +12,7 @@
 
 要求 Windows Terminal `1.24` 或更高版本。
 
-### 使用发行压缩包（正式发布后）
+### 使用 Beta 发行压缩包
 
 正式发布后可从本仓库的 [Releases](https://github.com/lanmengSakura/diana-windows-terminal-theme/releases) 下载压缩包，解压后任选一种：
 
